@@ -1,0 +1,118 @@
+body{
+    background: url(night.bg.jpg) fixed center;
+    background-size: cover;
+    color: mediumorchid;
+    padding-top: 2rem;
+    overflow-x: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: "Pixelify Sans", sans-serif;
+    padding: 40px;
+    text-overflow: hidden;
+
+}
+
+
+.todo-container {
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+#task-input{
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: goldenrod;
+    color: darkblue;
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+#add-task-btn{
+    color: darkblue;
+    background-color: goldenrod;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;   
+}
+
+.task-text {
+    flex-grow: 1;
+}
+
+.task-actions {
+    display: flex;
+    gap: 5px;
+
+}
+
+.task-done {
+    text-decoration: line-through;
+    opacity: 0.5;
+    color: goldenrod;
+}
+
+.filter-buttons {
+    margin-top: 20px;
+    
+}
+
+.fa-check, 
+.fa-trash,
+.fa-edit {
+    color: black;
+    background: gold;
+    border-radius: 2px;
+    padding: 5px;
+    
+}
+
+#all-tasks,
+#completed-tasks,
+#incomplete-tasks,
+#upcoming-tasks {
+
+    background: goldenrod;
+    color: darkblue;
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 3px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.task-deadline {
+    font-size: 0.8em;
+    color: goldenrod;
+    background: goldenrod;
+  }
+
+.calendar {
+    background: gold;
+    color: darkblue;
+    border-radius: 10px;
+    padding: 5px;
+}
